@@ -7,6 +7,30 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Getting Started
+
+Follow these steps to set up and run the project:
+
+1. Clone this repository to your local machine
+
+2. Copy the `.env.example` file to create your own `.env` file:<br/>
+`cp .env.example .env`
+
+3. Download the database file from <a href="https://drive.google.com/file/d/1X18SnDU4BIHHhFQDisxATwFP_uMufgXF/view?usp=sharing" target="_blank">this link</a>
+
+4. Extract the downloaded file and move it to the database path: `database/database.sqlite`
+
+5. Install the project dependencies:<br/>
+`composer install`
+
+6. Install npm dependencies and build assets:<br/>
+`npm install && npm run dev`
+
+7. In another terminal, start the development server:<br/>
+`php artisan serve`
+
+8. Visit `http://localhost:8000` in your browser to see the application
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
